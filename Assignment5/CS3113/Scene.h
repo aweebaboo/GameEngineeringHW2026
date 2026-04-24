@@ -26,7 +26,7 @@ struct GameState
 
     int *playerHP = nullptr;
 
-    static constexpr int MAX_PROJECTILES = 10;
+    static constexpr int MAX_PROJECTILES = 100;
     Entity *projectiles[MAX_PROJECTILES] = { nullptr };
 
 };
